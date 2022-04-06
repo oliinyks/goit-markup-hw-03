@@ -7,7 +7,6 @@
 	--cards-color:rgba(236, 236, 236, 1);
 }
 
-
 ul{
 	list-style: none;
 	padding: 0;
@@ -22,6 +21,7 @@ h2,
 h3,
 p{
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 body{
@@ -37,7 +37,8 @@ body{
 	padding-right: 15px;
 	margin: 0 auto;
 }
-section{
+section,
+.footer{
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -104,6 +105,7 @@ section.activity{
 .contacts{
 	display: flex;
 	margin-left: auto;
+	color: var(--primary-text-color);
 }
 .site-link,
 .contacts-link{
@@ -129,6 +131,10 @@ section.activity{
 	background-color: var(--exyra-bg-color);
 	letter-spacing: 0.06em;
 	text-align: center;
+}
+.introduction-content{
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 .introduction-title{
 	width: 670px;
@@ -194,15 +200,15 @@ section.activity{
 	line-height: 1.16;
 	background-color: rgba(245, 244, 250, 1);
 }
-.team-img,
-.team-text{
-	margin-bottom: 30px;
-}
 .team-subtitle{
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
 	margin-bottom: 10px;
+}
+.team-content{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .team-items{
 	display: flex;
@@ -223,7 +229,6 @@ footer{
 .footer-logo{
 	display: inline-block;
 	margin-bottom: 20px;
-	margin-top: 60px;
 	color: var(--primary-bg-color);
 }
 .address-link{
@@ -234,8 +239,8 @@ footer{
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
-.address-links{
-	padding-bottom: 60px;
+.address-li + .address-li{
+	margin-top: 9px;
 }
 .link-white{
 	color: var(--primary-bg-color);
@@ -295,9 +300,10 @@ footer{
 .portfolio-info{
 	border: 1px solid var(--cards-color);
 	border-top: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .portfolio-subtitle{
-	padding-top: 10px;
 	margin-top: -3px;
 	margin-bottom: 4px;
 	color: var(--title-text-color);
