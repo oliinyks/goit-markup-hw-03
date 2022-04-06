@@ -101,18 +101,20 @@ section.activity{
 .site-link{
 	display: block;
 	padding: 32px 0;
+	color: var(--title-text-color);
 }
 .contacts{
 	display: flex;
 	margin-left: auto;
-	color: var(--primary-text-color);
 }
 .site-link,
 .contacts-link{
-	color: var(--title-text-color);
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	font-weight: 500;
+}
+.contacts-link{
+		color: var(--primary-text-color);
 }
 .contacts-link:hover,
 .site-link:hover,
