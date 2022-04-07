@@ -37,8 +37,7 @@ body{
 	padding-right: 15px;
 	margin: 0 auto;
 }
-section,
-.footer{
+.section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -225,8 +224,10 @@ section.activity{
 	border: 1px solid rgba(238, 238, 238, 1);
 }
 /* footer */
-footer{
+.footer{
 	background-color: var(--exyra-bg-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .footer-logo{
 	display: inline-block;
@@ -304,6 +305,8 @@ footer{
 	border-top: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 .portfolio-subtitle{
 	margin-top: -3px;
@@ -313,12 +316,10 @@ footer{
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	padding-left: 24px;
 }
 
 .portfolio-text{
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.88;
-	padding-left: 24px;
 }
